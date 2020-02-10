@@ -1,9 +1,9 @@
-package demo02InterfaceSegregation;
+package 七大原则.接口隔离原则;
 
 /**
  * @author : 赵静超
  * @date Date : 2019/10/13 17:51
- * @description : 接口隔离原则：一个类对另一个类的依赖应该建立在最小接口基础上进行
+ * @description : 七大原则.接口隔离原则：一个类对另一个类的依赖应该建立在最小接口基础上进行
  */
 public class InterfaceSegregation01 {
     public static void main(String[] args) {

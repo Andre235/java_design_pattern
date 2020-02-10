@@ -1,4 +1,4 @@
-package demo03DependencyInversion;
+package 七大原则.依赖倒置原则;
 
 /**
  * @author : 赵静超

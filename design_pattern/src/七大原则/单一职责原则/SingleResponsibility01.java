@@ -1,4 +1,4 @@
-package demo01SingleResponsibility;
+package 七大原则.单一职责原则;
 
 /**
  * @author : 赵静超
