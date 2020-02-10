@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da68ab42-064a-40f1-b97d-d2d92ee3e1b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/BrownKiwi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/LSPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/Swallow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/java_design_pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java_design_pattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Fans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/LoDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Star.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/src/demo01SingleResponsibility/SingleResponsibility01.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/单一职责原则/SingleResponsibility01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/src/demo01SingleResponsibility/SingleResponsibility02.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/单一职责原则/SingleResponsibility02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/src/demo01SingleResponsibility/SingleResponsibility03.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/单一职责原则/SingleResponsibility03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/src/demo02InterfaceSegregation/InterfaceSegregation01.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/接口隔离原则/InterfaceSegregation01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/src/demo02InterfaceSegregation/InterfaceSegregation02.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/接口隔离原则/InterfaceSegregation02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/src/demo03DependencyInversion/Inversion01.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/依赖倒置原则/Inversion01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/src/demo03DependencyInversion/Inversion02.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/七大原则/依赖倒置原则/Inversion02.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,56 +24,70 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/接口隔离原则/InterfaceSegregation01.java">
+        <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Agent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="304">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Fans.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/LoDTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/LSPTest.java">
+        <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Star.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/Bird.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/Swallow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/BrownKiwi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -107,6 +112,11 @@
         <option value="$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/BrownKiwi.java" />
         <option value="$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/Bird.java" />
         <option value="$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/LSPTest.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Agent.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Star.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Fans.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Company.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/LoDTest.java" />
       </list>
     </option>
   </component>
@@ -157,7 +167,24 @@
               <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="七大原则" type="462c0819:PsiDirectoryNode" />
-              <item name="里氏替换原则" type="462c0819:PsiDirectoryNode" />
+              <item name="依赖倒置原则" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="七大原则" type="462c0819:PsiDirectoryNode" />
+              <item name="依赖倒置原则" type="462c0819:PsiDirectoryNode" />
+              <item name="Inversion01.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java_design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="七大原则" type="462c0819:PsiDirectoryNode" />
+              <item name="迪米特原则" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LSPTest">
+  <component name="RunManager" selected="Application.LoDTest">
     <configuration name="Inversion02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="七大原则.依赖倒置原则.Inversion02" />
       <module name="java_design_pattern" />
@@ -217,8 +244,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoDTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="七大原则.迪米特原则.LoDTest" />
+      <module name="java_design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="七大原则.迪米特原则.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoDTest" />
         <item itemvalue="Application.LSPTest" />
         <item itemvalue="Application.Inversion02" />
       </list>
@@ -242,12 +283,20 @@
       <workItem from="1581162618406" duration="1505000" />
       <workItem from="1581167817493" duration="1308000" />
       <workItem from="1581258938256" duration="2293000" />
-      <workItem from="1581299470593" duration="2218000" />
+      <workItem from="1581299470593" duration="4932000" />
     </task>
+    <task id="LOCAL-00001" summary="2020年2月10日&#10;里氏替换原则">
+      <created>1581310380402</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581310380402</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10361000" />
+    <option name="totallyTimeSpent" value="13075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -262,7 +311,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39175257" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,6 +382,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020年2月10日&#10;里氏替换原则" />
+    <MESSAGE value="2020年2月10日&#10;迪米特原则" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年2月10日&#10;迪米特原则" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_design_pattern$LSPTest.ic" NAME="LSPTest Coverage Results" MODIFIED="1581310070523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>七大原则.里氏替换原则.*</FILTER>
@@ -346,13 +400,6 @@
             <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/单一职责原则/SingleResponsibility01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -382,13 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/依赖倒置原则/Inversion01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -443,8 +483,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/里氏替换原则/LSPTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="539">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/单一职责原则/SingleResponsibility01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/依赖倒置原则/Inversion01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Fans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/LoDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/七大原则/迪米特原则/Star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
