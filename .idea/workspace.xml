@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da68ab42-064a-40f1-b97d-d2d92ee3e1b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/单例模式/懒汉式/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/单例模式/懒汉式/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/单例模式/饿汉式/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/单例模式/饿汉式/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/原型模式/PrototypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/原型模式/RealizeType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/单例模式/懒汉式/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/单例模式/懒汉式/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +14,6 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="209" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -60,7 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../AndroidTools/androidSdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../document" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -74,7 +67,7 @@
       <recent name="设计模式.适配器模式.对象适配器模式" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.PrototypeTest">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="设计模式.适配器模式.类适配器模式.Client" />
       <module name="java_design_pattern" />
@@ -114,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.代理模式.样例.Client" />
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.创建型模式.单例模式.懒汉式.Client" />
       <module name="java_design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="设计模式.代理模式.样例.*" />
+          <option name="PATTERN" value="设计模式.创建型模式.单例模式.懒汉式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="七大原则.Test.Test" />
+    <configuration name="PrototypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.创建型模式.原型模式.PrototypeTest" />
       <module name="java_design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="七大原则.Test.*" />
+          <option name="PATTERN" value="设计模式.创建型模式.原型模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,31 +146,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.PrototypeTest" />
+      <item itemvalue="Application.Client (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrototypeTest" />
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +209,8 @@
       <workItem from="1595142433961" duration="53000" />
       <workItem from="1595200477911" duration="676000" />
       <workItem from="1595632029131" duration="99000" />
-      <workItem from="1601029156056" duration="2433000" />
+      <workItem from="1601029156056" duration="5451000" />
+      <workItem from="1601042012547" duration="1127000" />
     </task>
     <task id="LOCAL-00001" summary="2020年2月10日&#10;里氏替换原则">
       <created>1581310380402</created>
@@ -243,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595130759143</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="单例模式：懒汉式、饿汉式">
+      <created>1601031753331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601031753331</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,57 +284,58 @@
     <MESSAGE value="2020年2月10日&#10;迪米特原则" />
     <MESSAGE value="2020年7月19日10:57:46master&#10;代理模式" />
     <MESSAGE value="2020年7月19日11:51:59master&#10;对象型适配器模式、类型适配器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年7月19日11:51:59master&#10;对象型适配器模式、类型适配器模式" />
+    <MESSAGE value="单例模式：懒汉式、饿汉式" />
+    <option name="LAST_COMMIT_MESSAGE" value="单例模式：懒汉式、饿汉式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser" timestamp="1601030786125">
+    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser" timestamp="1601042685790">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1601030786125" />
-    <state x="378" y="262" width="966" height="747" key="CommitChangelistDialog2" timestamp="1595130757387">
+    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1601042685790" />
+    <state x="378" y="262" width="966" height="747" key="CommitChangelistDialog2" timestamp="1601031751762">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="378" y="262" width="966" height="747" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1595130757387" />
+    <state x="378" y="262" width="966" height="747" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1601031751762" />
     <state x="198" y="94" key="DiffContextDialog" timestamp="1601029257672">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="198" y="94" key="DiffContextDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1601029257672" />
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1595632126745">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1601032880052">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1595632126745" />
-    <state width="2005" height="273" key="GridCell.Tab.0.bottom" timestamp="1601031284779">
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1601032880052" />
+    <state width="2005" height="273" key="GridCell.Tab.0.bottom" timestamp="1601042740392">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="273" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284779" />
-    <state width="2005" height="273" key="GridCell.Tab.0.center" timestamp="1601031284779">
+    <state width="2005" height="273" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1601042740392" />
+    <state width="2005" height="273" key="GridCell.Tab.0.center" timestamp="1601042740391">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="273" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284779" />
-    <state width="2005" height="273" key="GridCell.Tab.0.left" timestamp="1601031284779">
+    <state width="2005" height="273" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1601042740391" />
+    <state width="2005" height="273" key="GridCell.Tab.0.left" timestamp="1601042740391">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="273" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284779" />
-    <state width="2005" height="273" key="GridCell.Tab.0.right" timestamp="1601031284779">
+    <state width="2005" height="273" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1601042740391" />
+    <state width="2005" height="273" key="GridCell.Tab.0.right" timestamp="1601042740391">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="273" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284779" />
-    <state width="2005" height="273" key="GridCell.Tab.1.bottom" timestamp="1601031284530">
+    <state width="2005" height="273" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1601042740391" />
+    <state width="2005" height="273" key="GridCell.Tab.1.bottom" timestamp="1601042740146">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="273" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284530" />
-    <state width="2005" height="273" key="GridCell.Tab.1.center" timestamp="1601031284529">
+    <state width="2005" height="273" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1601042740146" />
+    <state width="2005" height="273" key="GridCell.Tab.1.center" timestamp="1601042740145">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="273" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284529" />
-    <state width="2005" height="273" key="GridCell.Tab.1.left" timestamp="1601031284529">
+    <state width="2005" height="273" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1601042740145" />
+    <state width="2005" height="273" key="GridCell.Tab.1.left" timestamp="1601042740145">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="273" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284529" />
-    <state width="2005" height="273" key="GridCell.Tab.1.right" timestamp="1601031284530">
+    <state width="2005" height="273" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1601042740145" />
+    <state width="2005" height="273" key="GridCell.Tab.1.right" timestamp="1601042740146">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="273" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284530" />
+    <state width="2005" height="273" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1601042740146" />
     <state x="778" y="193" key="RollbackChangesDialog" timestamp="1601029259689">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -349,6 +354,9 @@
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1595124833337" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_design_pattern$PrototypeTest.ic" NAME="PrototypeTest Coverage Results" MODIFIED="1601041532394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>设计模式.创建型模式.原型模式.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/java_design_pattern$LSPTest.ic" NAME="LSPTest Coverage Results" MODIFIED="1581310070523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>七大原则.里氏替换原则.*</FILTER>
     </SUITE>

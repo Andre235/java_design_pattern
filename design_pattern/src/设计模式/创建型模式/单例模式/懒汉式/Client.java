@@ -14,6 +14,10 @@ public class Client {
         System.out.println(instance1 == instance2);
         System.out.println(instance1.hashCode());
         System.out.println(instance2.hashCode());
+
+        //获取对象的内存地址
+        System.out.println(System.identityHashCode(instance1));
+        System.out.println(System.identityHashCode(instance2));
     }
 }
 
