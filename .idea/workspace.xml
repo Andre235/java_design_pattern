@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da68ab42-064a-40f1-b97d-d2d92ee3e1b5" name="Default Changelist" comment="2020年7月19日10:57:46master&#10;代理模式">
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/适配器模式/对象适配器模式/Adapted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/适配器模式/对象适配器模式/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/适配器模式/对象适配器模式/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/适配器模式/对象适配器模式/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/适配器模式/类适配器模式/Adapteree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/适配器模式/类适配器模式/ClassAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/适配器模式/类适配器模式/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/适配器模式/类适配器模式/Target.java" afterDir="false" />
+    <list default="true" id="da68ab42-064a-40f1-b97d-d2d92ee3e1b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/单例模式/懒汉式/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/单例模式/懒汉式/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/单例模式/饿汉式/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/单例模式/饿汉式/HungrySingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="209" />
@@ -34,6 +36,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1eswgclfYkmGwafsb5lmIjmjwdf" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="F:/AndroidTools/androidSdk" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../AndroidTools/androidSdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -62,7 +74,7 @@
       <recent name="设计模式.适配器模式.对象适配器模式" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="设计模式.适配器模式.类适配器模式.Client" />
       <module name="java_design_pattern" />
@@ -89,6 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.创建型模式.单例模式.饿汉式.Client" />
+      <module name="java_design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.创建型模式.单例模式.饿汉式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="设计模式.代理模式.样例.Client" />
       <module name="java_design_pattern" />
@@ -102,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFutureTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="七大原则.多线程.MyFutureTask" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.创建型模式.单例模式.懒汉式.Client" />
       <module name="java_design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="七大原则.多线程.*" />
+          <option name="PATTERN" value="设计模式.创建型模式.单例模式.懒汉式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,23 +153,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MyFutureTask" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Client (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.MyFutureTask" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,7 +207,13 @@
       <workItem from="1584275625181" duration="5661000" />
       <workItem from="1584327962011" duration="2384000" />
       <workItem from="1584497536308" duration="25000" />
-      <workItem from="1595123722721" duration="5249000" />
+      <workItem from="1595123722721" duration="6031000" />
+      <workItem from="1595141140916" duration="143000" />
+      <workItem from="1595142361600" duration="4000" />
+      <workItem from="1595142433961" duration="53000" />
+      <workItem from="1595200477911" duration="676000" />
+      <workItem from="1595632029131" duration="99000" />
+      <workItem from="1601029156056" duration="2433000" />
     </task>
     <task id="LOCAL-00001" summary="2020年2月10日&#10;里氏替换原则">
       <created>1581310380402</created>
@@ -193,20 +236,25 @@
       <option name="project" value="LOCAL" />
       <updated>1595127484148</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2020年7月19日11:51:59master&#10;对象型适配器模式、类型适配器模式">
+      <created>1595130759143</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595130759143</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -225,62 +273,76 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020年2月10日&#10;里氏替换原则" />
     <MESSAGE value="2020年2月10日&#10;迪米特原则" />
     <MESSAGE value="2020年7月19日10:57:46master&#10;代理模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年7月19日10:57:46master&#10;代理模式" />
+    <MESSAGE value="2020年7月19日11:51:59master&#10;对象型适配器模式、类型适配器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年7月19日11:51:59master&#10;对象型适配器模式、类型适配器模式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser" timestamp="1595130395261">
+    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser" timestamp="1601030786125">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1595130395261" />
-    <state x="378" y="262" width="966" height="747" key="CommitChangelistDialog2" timestamp="1595127492334">
+    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1601030786125" />
+    <state x="378" y="262" width="966" height="747" key="CommitChangelistDialog2" timestamp="1595130757387">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="378" y="262" width="966" height="747" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1595127492334" />
-    <state width="2005" height="171" key="GridCell.Tab.0.bottom" timestamp="1595130703782">
+    <state x="378" y="262" width="966" height="747" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1595130757387" />
+    <state x="198" y="94" key="DiffContextDialog" timestamp="1601029257672">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="171" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1595130703782" />
-    <state width="2005" height="171" key="GridCell.Tab.0.center" timestamp="1595130703782">
+    <state x="198" y="94" key="DiffContextDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1601029257672" />
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1595632126745">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="171" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1595130703782" />
-    <state width="2005" height="171" key="GridCell.Tab.0.left" timestamp="1595130703782">
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1595632126745" />
+    <state width="2005" height="273" key="GridCell.Tab.0.bottom" timestamp="1601031284779">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="171" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1595130703782" />
-    <state width="2005" height="171" key="GridCell.Tab.0.right" timestamp="1595130703782">
+    <state width="2005" height="273" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284779" />
+    <state width="2005" height="273" key="GridCell.Tab.0.center" timestamp="1601031284779">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="171" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1595130703782" />
-    <state width="2005" height="171" key="GridCell.Tab.1.bottom" timestamp="1595130703617">
+    <state width="2005" height="273" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284779" />
+    <state width="2005" height="273" key="GridCell.Tab.0.left" timestamp="1601031284779">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="171" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1595130703617" />
-    <state width="2005" height="171" key="GridCell.Tab.1.center" timestamp="1595130703617">
+    <state width="2005" height="273" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284779" />
+    <state width="2005" height="273" key="GridCell.Tab.0.right" timestamp="1601031284779">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="171" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1595130703617" />
-    <state width="2005" height="171" key="GridCell.Tab.1.left" timestamp="1595130703617">
+    <state width="2005" height="273" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284779" />
+    <state width="2005" height="273" key="GridCell.Tab.1.bottom" timestamp="1601031284530">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="171" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1595130703617" />
-    <state width="2005" height="171" key="GridCell.Tab.1.right" timestamp="1595130703617">
+    <state width="2005" height="273" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284530" />
+    <state width="2005" height="273" key="GridCell.Tab.1.center" timestamp="1601031284529">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="171" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1595130703617" />
+    <state width="2005" height="273" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284529" />
+    <state width="2005" height="273" key="GridCell.Tab.1.left" timestamp="1601031284529">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="273" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284529" />
+    <state width="2005" height="273" key="GridCell.Tab.1.right" timestamp="1601031284530">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="273" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1601031284530" />
+    <state x="778" y="193" key="RollbackChangesDialog" timestamp="1601029259689">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="778" y="193" key="RollbackChangesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1601029259689" />
     <state x="518" y="197" key="SettingsEditor" timestamp="1595124080131">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="518" y="197" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1595124080131" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595127656120">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595130762137">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1595127656120" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1595130762137" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1595124833337">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
