@@ -36,4 +36,6 @@ public class RealizeType implements Cloneable{
         System.out.println("具体原型复制成功");
         return super.clone();
     }
+
+
 }
