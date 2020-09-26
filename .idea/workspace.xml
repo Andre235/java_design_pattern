@@ -20,16 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da68ab42-064a-40f1-b97d-d2d92ee3e1b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/抽象工厂模式/FarmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/抽象工厂模式/factory/Farm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/抽象工厂模式/factory/impl/BeiJingFarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/抽象工厂模式/factory/impl/ShangHaiFarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/抽象工厂模式/product/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/抽象工厂模式/product/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/抽象工厂模式/product/impl/Cattle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/抽象工厂模式/product/impl/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/抽象工厂模式/product/impl/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/抽象工厂模式/product/impl/Vegetables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/建造者模式/BuilderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/建造者模式/builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/建造者模式/builder/impl/ABuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/建造者模式/director/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/设计模式/创建型模式/建造者模式/product/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -95,7 +90,20 @@
       <recent name="F:\GitCode\java_design_pattern\design_pattern\src\设计模式\创建型模式\抽象工厂模式" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FarmTest">
+  <component name="RunManager" selected="Application.BuilderClient">
+    <configuration name="BuilderClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.创建型模式.建造者模式.BuilderClient" />
+      <module name="java_design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.创建型模式.建造者模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="设计模式.创建型模式.工厂方法模式.Client" />
       <module name="java_design_pattern" />
@@ -148,19 +156,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.创建型模式.原型模式.PrototypeTest" />
-      <module name="java_design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="设计模式.创建型模式.原型模式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -173,19 +168,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PrototypeTest" />
       <item itemvalue="Application.DeepCloneTest" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.FarmTest" />
+      <item itemvalue="Application.BuilderClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuilderClient" />
         <item itemvalue="Application.FarmTest" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.DeepCloneTest" />
-        <item itemvalue="Application.PrototypeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +218,7 @@
       <workItem from="1595632029131" duration="99000" />
       <workItem from="1601029156056" duration="5451000" />
       <workItem from="1601042012547" duration="2025000" />
-      <workItem from="1601084684153" duration="12412000" />
+      <workItem from="1601084684153" duration="15488000" />
     </task>
     <task id="LOCAL-00001" summary="2020年2月10日&#10;里氏替换原则">
       <created>1581310380402</created>
@@ -288,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601099724324</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="抽象工厂模式（一个工厂可以创建一个产品族 即多种产品）">
+      <created>1601106155360</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601106155360</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,26 +332,31 @@
     <MESSAGE value="原型模式：深拷贝" />
     <MESSAGE value="简单工厂模式" />
     <MESSAGE value="工厂方法模式 （一种产品由对应的工厂创建）" />
-    <option name="LAST_COMMIT_MESSAGE" value="工厂方法模式 （一种产品由对应的工厂创建）" />
+    <MESSAGE value="抽象工厂模式（一个工厂可以创建一个产品族 即多种产品）" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽象工厂模式（一个工厂可以创建一个产品族 即多种产品）" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1601104351897">
+    <state x="623" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1601110283977">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="623" y="176" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601104351897" />
+    <state x="623" y="176" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601110283977" />
     <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1601042685790" />
     <state x="543" y="313" width="608" height="198" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1601103743891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="543" y="313" width="608" height="198" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1601103743891" />
-    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601103295691">
+    <state x="499" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601109399832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601103295691" />
-    <state x="284" y="194" width="802" height="554" key="CommitChangelistDialog2" timestamp="1601099722685">
+    <state x="499" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1601109399832" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601110137456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="284" y="194" width="802" height="554" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601099722685" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601110137456" />
+    <state x="363" y="131" width="802" height="554" key="CommitChangelistDialog2" timestamp="1601106153465">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="363" y="131" width="802" height="554" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601106153465" />
     <state x="378" y="262" width="966" height="747" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1601043199453" />
     <state x="149" y="70" key="DiffContextDialog" timestamp="1601097913448">
       <screen x="0" y="0" width="1536" height="824" />
@@ -411,10 +418,10 @@
     </state>
     <state x="233" y="102" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601099753493" />
     <state x="518" y="197" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1595124080131" />
-    <state x="312" y="170" key="Vcs.Push.Dialog.v2" timestamp="1601099777623">
+    <state x="312" y="170" key="Vcs.Push.Dialog.v2" timestamp="1601106157988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="312" y="170" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601099777623" />
+    <state x="312" y="170" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601106157988" />
     <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1601043204111" />
     <state x="572" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601104303728">
       <screen x="0" y="0" width="1536" height="824" />
